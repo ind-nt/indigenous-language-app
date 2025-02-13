@@ -1,2 +1,2 @@
 # indigenous-language-apps
-Redeveloped Indigenous language apps developed for the Northwest Territories in 2013
+A basic redevelopment of Northwest Territories Indigenous language apps originally created in 2013-2015 for iOS and Android
