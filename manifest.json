@@ -2,7 +2,7 @@
   "name": "Indigenous Language Apps",
   "short_name": "ILApps",
   "description": "A fully offline-capable web application built with HTML, CSS, and Bootstrap.",
-  "start_url": "/index.html",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#999999",
