@@ -13,6 +13,8 @@
 
 	<!-- Bootstrap core CSS -->
 	<link href="js/bootstrap.min.css" rel="stylesheet">
+	<!-- Loading Overlay CSS -->
+	<link href="js/loading.css" rel="stylesheet">
 
 	<!-- Custom styles for this template -->
 
@@ -34,6 +36,14 @@
 </head>
 
 <body class="bg-light">
+
+  <div id="loading-overlay">
+    <div class="loading-content">
+      <h1>Preparing for Offline Use...</h1>
+      <p>Downloading app resources (approx. 260 MB) for a seamless offline experience. This may take a moment, especially on the first visit.</p>
+      <div class="spinner"></div>
+      <p id="loading-progress"></p> </div>
+  </div>
 
     <div class="container">
       <div class="pt-5 pb-3 text-center">
@@ -351,5 +361,7 @@
 	<script src="js/jquery-3.2.1.slim.min.js" ></script>
     <!-- Bootstrap core JS -->
 	<script src="js/bootstrap.bundle.min.js" ></script>
+	<!-- Load Service Worker -->
+	<script src="js/load-sw.js" ></script>	
   </body>
 </html>

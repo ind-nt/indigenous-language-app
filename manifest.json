@@ -1,6 +1,6 @@
 {
   "name": "Indigenous Language Apps",
-  "short_name": "ILApp",
+  "short_name": "ILApps",
   "description": "A fully offline-capable web application built with HTML, CSS, and Bootstrap.",
   "start_url": "/index.html",
   "display": "standalone",
